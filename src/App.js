@@ -1,10 +1,11 @@
 import Book from "./components/Book"
 
 export default () => {
+    const title = 'Viatge a la lluna';
 
     return (
         <div>
-            <Book />
+            <Book title={ title} />
         </div>
     );
 };
