@@ -2,8 +2,7 @@ export default () => {
 
     return (
         <div>
-            hello World!!
+            hello World
         </div>
     );
 };
-
