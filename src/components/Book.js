@@ -1,7 +1,1 @@
-const Book = (props) => {
-  return (
-    <h1>{ props.title }</h1>
-  );
-}
-
-export default Book;
+export default ({title}) => <h1>{title}</h1>
